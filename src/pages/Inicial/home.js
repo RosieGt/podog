@@ -24,17 +24,17 @@ export default props => {
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        backgroundColor: '#38a69d'
+        backgroundColor: '#ffff'
     },
     containerLogo:{
         flex: 2,
-        backgroundColor: '#38a69d',
+        backgroundColor: '#ffff',
         justifyContent: 'center',
         alignItems:'center'
     },
     containerFom: {
         flex:1,
-        backgroundColor: '#ffff',
+        backgroundColor: '#00c293',
         borderTopLeftRadius: 25,
         borderTopRightRadius: 25,
         paddingStart: '5%',
@@ -42,13 +42,14 @@ const styles = StyleSheet.create({
     },
     title:{
         fontSize: 24,
+        color: '#ffff',
         fontWeight: 'bold',
         marginTop: 28,
         marginBottom: 12,
     },
     button:{
         position: 'absolute',
-        backgroundColor: '#38a69d',
+        backgroundColor: '#ffff',
         borderRadius: 50,
         paddingVertical: 8,
         width: '60%',
@@ -59,7 +60,7 @@ const styles = StyleSheet.create({
     },
     buttonText:{
         fontSize: 18,
-        color: '#fff',
+        color: '#00c293',
         fontWeight: 'bold'
     },
 

@@ -7,7 +7,7 @@ import Routes from "./components/Routes/Index"
 export default props => (
            
            <NavigationContainer>
-                <StatusBar backgroundColor={"#38a69d"} barStyle='light-content' />
+                <StatusBar backgroundColor={"#00c293"} barStyle='light-content' />
                 <Routes/>
             </NavigationContainer>
-    )
+)
